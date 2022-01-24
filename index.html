@@ -1,25 +1,24 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <link rel="stylesheet" href="css/styles.css">
+
         <style>
         table, th, td {
-        border: 1px solid black;
+        border: 1px solid white;
         border-collapse: collapse;
         }
         </style>
     </head>
     <body>
 
-        <h1>Table with Collapsed Borders</h1>
+        <h1>Periodic Tables</h1>
 
         <table>
             <tr>
-                <td style="background-color: red; border-color: black;">1 <strong>H</strong></td>
-                <td  style="border-color: white;"> </td>
-                <td style="border-color: white;"> </td>
-                <td style="border-color: white;"> </td>
+                <td class = "td_other_nonmetals">1 <strong>H</strong></td>
                 <td> </td>
                 <td> </td>
                 <td> </td>
@@ -33,14 +32,15 @@
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td>2 <strong>He</strong></td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td class = "td_noble_gases">2 <strong>He</strong></td>
 
             </tr>
             <tr>
-                <td>3 Li</td>
-                <td style="background-color: lightsalmon;  border-color: black;">
-                    4 <strong>Be</strong>
-                </td>
+                <td class = "td_alkali_metals">3 Li</td>
+                <td class="td_alkaline-earth_metals">4 <strong>Be</strong></td>
                 <td> </td>
                 <td> </td>
                 <td> </td>
@@ -51,16 +51,16 @@
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td style="background-color: red;">5 B</td>
-                <td style="background-color: red;">6 C</td>
-                <td style="background-color: red;">7 N</td>
-                <td style="background-color: red;">8 O</td>
-                <td>9 F</td>
-                <td>10 Ne</td>
+                <td class = "td_other_nonmetals">5 B</td>
+                <td class = "td_other_nonmetals">6 C</td>
+                <td class = "td_other_nonmetals">7 N</td>
+                <td class = "td_other_nonmetals">8 O</td>
+                <td class="td_halogens">9 F</td>
+                <td class = "td_noble_gases">10 Ne</td>
             </tr>
             <tr>
-                <td>11 Na</td>
-                <td style="background-color: lightsalmon;">12 Mg</td>
+                <td class = "td_alkali_metals">11 Na</td>
+                <td class="td_alkaline-earth_metals">12 Mg</td>
                 <td> </td>
                 <td> </td>
                 <td> </td>
@@ -71,129 +71,129 @@
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                <td>13 Al</td>
-                <td style="background-color: red;">14 Si</td>
-                <td style="background-color: red;">15 P</td>
-                <td style="background-color: red;">16 S</td>
-                <td>17 Cl</td>
-                <td>18 Ar</td>
+                <td class="td_other_metals">13 Al</td>
+                <td class = "td_other_nonmetals">14 Si</td>
+                <td class = "td_other_nonmetals">15 P</td>
+                <td class = "td_other_nonmetals">16 S</td>
+                <td class="td_halogens">17 Cl</td>
+                <td class = "td_noble_gases">18 Ar</td>
             </tr>
             <tr>
-                <td>19 K</td>
-                <td style="background-color: lightsalmon;">20 Ca</td>
-                <td>21 Sc</td>
-                <td>22 Ti</td>
-                <td>23 V</td>
-                <td>24 Cr</td>
-                <td>25 Mn</td>
-                <td>26 Fe</td>
-                <td>27 Co</td>
-                <td>28 Ni</td>
-                <td>29 Cu</td>
-                <td>30 Zn</td>
-                <td>31 Ga</td>
-                <td>32 Ge</td>
-                <td style="background-color: red;">33 As</td>
-                <td style="background-color: red;"> 34 Se</td>
-                <td>35 Br</td>
-                <td>36 Kr</td>
+                <td class = "td_alkali_metals">19 K</td>
+                <td class="td_alkaline-earth_metals">20 Ca</td>
+                <td class="td_rare-earth_lanthanoid_elements">21 Sc</td>
+                <td class="td_transition_metals">22 Ti</td>
+                <td class="td_transition_metals">23 V</td>
+                <td class="td_transition_metals">24 Cr</td>
+                <td class="td_transition_metals">25 Mn</td>
+                <td class="td_transition_metals">26 Fe</td>
+                <td class="td_transition_metals">27 Co</td>
+                <td class="td_transition_metals">28 Ni</td>
+                <td class="td_transition_metals">29 Cu</td>
+                <td class="td_transition_metals">30 Zn</td>
+                <td class="td_other_metals">31 Ga</td>
+                <td class="td_other_metals">32 Ge</td>
+                <td class = "td_other_nonmetals">33 As</td>
+                <td class = "td_other_nonmetals"> 34 Se</td>
+                <td class="td_halogens">35 Br</td>
+                <td class = "td_noble_gases">36 Kr</td>
 
             </tr>
             <tr>
-                <td>37 Rb</td>
-                <td style="background-color: lightsalmon;">38 Sr</td>
-                <td>39 Y</td>
-                <td>40 Zr</td>
-                <td>41 Nb</td>
-                <td>42 Mo</td>
-                <td>43 Tc</td>
-                <td>44 Ru</td>
-                <td>45 Rh</td>
-                <td>46 Pd</td>
-                <td>47 Ag</td>
-                <td>48 Cd</td>
-                <td>49 In</td>
-                <td>50 Sn</td>
-                <td>51 Sb</td>
-                <td style="background-color: red;">52 Te</td>
-                <td>53 I</td>
-                <td>54 Xe</td>
+                <td class = "td_alkali_metals">37 Rb</td>
+                <td class="td_alkaline-earth_metals">38 Sr</td>
+                <td class="td_rare-earth_lanthanoid_elements">39 Y</td>
+                <td class="td_transition_metals">40 Zr</td>
+                <td class="td_transition_metals">41 Nb</td>
+                <td class="td_transition_metals">42 Mo</td>
+                <td class="td_transition_metals">43 Tc</td>
+                <td class="td_transition_metals">44 Ru</td>
+                <td class="td_transition_metals">45 Rh</td>
+                <td class="td_transition_metals">46 Pd</td>
+                <td class="td_transition_metals">47 Ag</td>
+                <td class="td_transition_metals">48 Cd</td>
+                <td class="td_other_metals">49 In</td>
+                <td class="td_other_metals">50 Sn</td>
+                <td class="td_other_metals">51 Sb</td>
+                <td class = "td_other_nonmetals">52 Te</td>
+                <td class="td_halogens">53 I</td>
+                <td class = "td_noble_gases">54 Xe</td>
 
             </tr>
             <tr>
-                <td>55 Cs</td>
-                <td style="background-color: lightsalmon;">56 Ba</td>
-                <td>57 La</td>
-                <td>72 Hf</td>
-                <td>73 Ta</td>
-                <td>74 W</td>
-                <td>75 Re</td>
-                <td>76 Os</td>
-                <td>77 Ir</td>
-                <td>78 Pt</td>
-                <td>79 Au</td>
-                <td>80 Hg</td>
-                <td>81 Tl</td>
-                <td>82 Pb</td>
-                <td>83 Bi</td>
-                <td>84 Po</td>
-                <td>85 At</td>
-                <td>86 Rn</td>
+                <td class = "td_alkali_metals">55 Cs</td>
+                <td class="td_alkaline-earth_metals">56 Ba</td>
+                <td class="td_rare-earth_lanthanoid_elements">57 La</td>
+                <td class="td_transition_metals">72 Hf</td>
+                <td class="td_transition_metals">73 Ta</td>
+                <td class="td_transition_metals">74 W</td>
+                <td class="td_transition_metals">75 Re</td>
+                <td class="td_transition_metals">76 Os</td>
+                <td class="td_transition_metals">77 Ir</td>
+                <td class="td_transition_metals">78 Pt</td>
+                <td class="td_transition_metals">79 Au</td>
+                <td class="td_transition_metals">80 Hg</td>
+                <td class="td_other_metals">81 Tl</td>
+                <td class="td_other_metals">82 Pb</td>
+                <td class="td_other_metals">83 Bi</td>
+                <td class="td_other_metals">84 Po</td>
+                <td class="td_halogens">85 At</td>
+                <td class="td_noble_gases">86 Rn</td>
             </tr>
             <tr>
-                <td>87 Fr</td>
-                <td style="background-color: lightsalmon;">88 Ra</td>
-                <td>89 Ac</td>
-                <td>104 Rf</td>
-                <td>105 Db</td>
-                <td>106 Sg</td>
-                <td>107 Bh</td>
-                <td>108 Hs</td>
-                <td>109 Mt</td>
-                <td>110 Ds</td>
-                <td>111 Rg</td>
-                <td>112 Cn</td>
-                <td>113 Nh</td>
-                <td>114 Fl</td>
-                <td>115 Mc</td>
-                <td>116 Lv</td>
-                <td>117 Ts</td>
-                <td>118 Og</td>
+                <td class = "td_alkali_metals">87 Fr</td>
+                <td class="td_alkaline-earth_metals">88 Ra</td>
+                <td class="td_actinoid_elemts">89 Ac</td>
+                <td class="td_transition_metals">104 Rf</td>
+                <td class="td_transition_metals">105 Db</td>
+                <td class="td_transition_metals">106 Sg</td>
+                <td class="td_transition_metals">107 Bh</td>
+                <td class="td_transition_metals">108 Hs</td>
+                <td class="td_transition_metals">109 Mt</td>
+                <td class="td_transition_metals">110 Ds</td>
+                <td class="td_transition_metals">111 Rg</td>
+                <td class="td_transition_metals">112 Cn</td>
+                <td class="td_other_metals">113 Nh</td>
+                <td class="td_other_metals">114 Fl</td>
+                <td class="td_other_metals">115 Mc</td>
+                <td class="td_other_metals">116 Lv</td>
+                <td class="td_halogens">117 Ts</td>
+                <td class="td_noble_gases">118 Og</td>
             </tr>
         </table>
 
         <table style="height: 20px; width: 20px;">
             <tr>
-                <td>58 Ce</td>
-                <td>59 Pr</td>
-                <td>60 Nd</td>
-                <td>61 Pm</td>
-                <td>62 Sm</td>
-                <td>63 Eu</td>
-                <td>64 Gd</td>
-                <td>65 Tb</td>
-                <td>66 Dy</td>
-                <td>67 Ho</td>
-                <td>68 Er</td>
-                <td>69 Tm</td>
-                <td>70 Yb</td>
-                <td>71 Lu</td>
+                <td class="td_rare-earth_lanthanoid_elements">58 Ce</td>
+                <td class="td_rare-earth_lanthanoid_elements">59 Pr</td>
+                <td class="td_rare-earth_lanthanoid_elements">60 Nd</td>
+                <td class="td_rare-earth_lanthanoid_elements"> 61 Pm</td>
+                <td class="td_rare-earth_lanthanoid_elements">62 Sm</td>
+                <td class="td_rare-earth_lanthanoid_elements">63 Eu</td>
+                <td class="td_rare-earth_lanthanoid_elements">64 Gd</td>
+                <td class="td_rare-earth_lanthanoid_elements">65 Tb</td>
+                <td class="td_rare-earth_lanthanoid_elements">66 Dy</td>
+                <td class="td_rare-earth_lanthanoid_elements">67 Ho</td>
+                <td class="td_rare-earth_lanthanoid_elements">68 Er</td>
+                <td class="td_rare-earth_lanthanoid_elements">69 Tm</td>
+                <td class="td_rare-earth_lanthanoid_elements">70 Yb</td>
+                <td class="td_rare-earth_lanthanoid_elements">71 Lu</td>
             </tr>
             <tr>
-                <td>90 Th</td>
-                <td>91 Pa</td>
-                <td>92 U</td>
-                <td>93 Np</td>
-                <td>94 Pu</td>
-                <td>95 Am</td>
-                <td>96 Cm</td>
-                <td>97 Bk</td>
-                <td>98 Cf</td>
-                <td>99 Es</td>
-                <td>100 Fm</td>
-                <td>101 Md</td>
-                <td>102 No</td>
-                <td>103 Lr</td>
+                <td class="td_actinoid_elemts">90 Th</td>
+                <td class="td_actinoid_elemts">91 Pa</td>
+                <td class="td_actinoid_elemts">92 U</td>
+                <td class="td_actinoid_elemts">93 Np</td>
+                <td class="td_actinoid_elemts">94 Pu</td>
+                <td class="td_actinoid_elemts">95 Am</td>
+                <td class="td_actinoid_elemts">96 Cm</td>
+                <td class="td_actinoid_elemts">97 Bk</td>
+                <td class="td_actinoid_elemts">98 Cf</td>
+                <td class="td_actinoid_elemts">99 Es</td>
+                <td class="td_actinoid_elemts">100 Fm</td>
+                <td class="td_actinoid_elemts">101 Md</td>
+                <td class="td_actinoid_elemts">102 No</td>
+                <td class="td_actinoid_elemts">103 Lr</td>
         </table>
     </body>
 </html>

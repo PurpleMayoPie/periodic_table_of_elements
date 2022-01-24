@@ -1,0 +1,70 @@
+h1 {
+    color: blue;
+  }
+td {
+    background-color: white;
+}
+
+.td_alkali_metals{
+    background-color: lightsalmon;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_alkaline-earth_metals{
+    background-color: sandybrown;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+
+}
+
+.td_transition_metals{
+    background-color: rgb(105, 109, 221);
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_other_metals{
+    background-color: lightpink;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_other_nonmetals{
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_halogens{
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_noble_gases{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_rare-earth_lanthanoid_elements{
+    background-color: olive;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
+
+.td_actinoid_elemts{
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+}
